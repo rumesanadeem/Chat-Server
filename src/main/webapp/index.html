@@ -1,0 +1,52 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Chat Server</title>
+  <meta name="description" content="A simple, sleek chat interface">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js"></script>
+  <meta name="theme-color" content="#3b82f6">
+</head>
+
+<body>
+<header>
+  <nav>
+    <div class="logo">
+      <!--Title-->
+      Chat Server
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html"><button class="button">Chat Room</button></a></li>
+      <li><a href="about.html"><button class="button">About Us</button></a></li>
+    </ul>
+  </nav>
+</header>
+<div class="container">
+  <aside class="sidebar">
+    <section class="rooms-section">
+      <h2 class="section-title">Chat Rooms</h2>
+      <div id="room-list" class="room active"></div>
+      <button class="new-room-btn" onclick="newRoom()">New Room</button>
+    </section>
+  </aside>
+  <main class="chat-container">
+    <div class="chat-header" id="roomName"></div>
+    <ul class="chat-messages" id="chatMessages">
+      <!-- Messages will be dynamically added here -->
+    </ul>
+    <form class="message-form" id="messageForm">
+      <input type="text" class="message-input" id="input" placeholder="Type your message here...">
+      <button type="submit" class="send-message-btn" onclick="handleSendMessage()">Send</button>
+    </form>
+  </main>
+</div>
+</body>
+<footer>
+  <p>&copy; CSCI2020U. All rights reserved.</p>
+</footer>
+
+</html>
