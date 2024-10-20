@@ -90,20 +90,3 @@ right-click on it, then select "Run index.html".
 
 ### 10. Use Multiple Users:
 Once you get the link, copy paste the link into new tabs to allow for multiple users to use the application.
-
-
-# Group Members and Contribution Report:
-
-### Rosie Khurmi and Sanhith Amarathunge:
-- ChatServer.java
-- ChatServlet.java
-- main.js
-- about.js
-
-### Rumesa Nadeem and Aryan Ved:
-- about.html
-- about-style.css
-- index.html
-- style.css
-- about.js
-- README.md
